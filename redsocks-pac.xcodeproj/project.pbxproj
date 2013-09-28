@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BE45548317F57EB000294B3A /* autohttp-connect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "autohttp-connect.c"; sourceTree = "<group>"; };
+		BE45548417F57EB000294B3A /* autosocks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = autosocks.c; sourceTree = "<group>"; };
+		BE45548517F57EB000294B3A /* base.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base.c; sourceTree = "<group>"; };
+		BE45548617F57EB000294B3A /* base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
+		BE45548717F57EB000294B3A /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		BE45548817F57EB000294B3A /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		BE45548917F57EB000294B3A /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BE45548B17F57EB000294B3A /* changelog */ = {isa = PBXFileReference; lastKnownFileType = text; path = changelog; sourceTree = "<group>"; };
+		BE45548C17F57EB000294B3A /* compat */ = {isa = PBXFileReference; lastKnownFileType = text; path = compat; sourceTree = "<group>"; };
+		BE45548D17F57EB000294B3A /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		BE45548E17F57EB000294B3A /* copyright */ = {isa = PBXFileReference; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		BE45548F17F57EB000294B3A /* init.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = init.d; sourceTree = "<group>"; };
+		BE45549017F57EB000294B3A /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postinst; sourceTree = "<group>"; };
+		BE45549117F57EB000294B3A /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postrm; sourceTree = "<group>"; };
+		BE45549217F57EB000294B3A /* redsocks.8 */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.8; sourceTree = "<group>"; };
+		BE45549317F57EB000294B3A /* redsocks.conf */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.conf; sourceTree = "<group>"; };
+		BE45549417F57EB000294B3A /* redsocks.default */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.default; sourceTree = "<group>"; };
+		BE45549517F57EB000294B3A /* redsocks.docs */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.docs; sourceTree = "<group>"; };
+		BE45549617F57EB000294B3A /* redsocks.install */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.install; sourceTree = "<group>"; };
+		BE45549717F57EB000294B3A /* redsocks.manpages */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.manpages; sourceTree = "<group>"; };
+		BE45549817F57EB000294B3A /* rules */ = {isa = PBXFileReference; lastKnownFileType = text; path = rules; sourceTree = "<group>"; };
+		BE45549A17F57EB000294B3A /* format */ = {isa = PBXFileReference; lastKnownFileType = text; path = format; sourceTree = "<group>"; };
+		BE45549B17F57EB000294B3A /* watch */ = {isa = PBXFileReference; lastKnownFileType = text; path = watch; sourceTree = "<group>"; };
+		BE45549C17F57EB000294B3A /* direct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = direct.c; sourceTree = "<group>"; };
+		BE45549D17F57EB000294B3A /* dnstc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dnstc.c; sourceTree = "<group>"; };
+		BE45549E17F57EB000294B3A /* dnstc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dnstc.h; sourceTree = "<group>"; };
+		BE4554A017F57EB000294B3A /* iptables-packet-flow-ng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iptables-packet-flow-ng.png"; sourceTree = "<group>"; };
+		BE4554A117F57EB000294B3A /* iptables-packet-flow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iptables-packet-flow.png"; sourceTree = "<group>"; };
+		BE4554A217F57EB000294B3A /* rfc1928-socks5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rfc1928-socks5.txt"; sourceTree = "<group>"; };
+		BE4554A317F57EB000294B3A /* rfc1929-socks5-auth.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rfc1929-socks5-auth.txt"; sourceTree = "<group>"; };
+		BE4554A417F57EB000294B3A /* rfc1961-socks5-gssapi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rfc1961-socks5-gssapi.txt"; sourceTree = "<group>"; };
+		BE4554A517F57EB000294B3A /* rfc2617-http-authentication.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rfc2617-http-authentication.txt"; sourceTree = "<group>"; };
+		BE4554A617F57EB000294B3A /* rfc2817-http-connect.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rfc2817-http-connect.txt"; sourceTree = "<group>"; };
+		BE4554A717F57EB000294B3A /* rfc3089-socks-ipv6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rfc3089-socks-ipv6.txt"; sourceTree = "<group>"; };
+		BE4554A817F57EB000294B3A /* socks4.protocol.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = socks4.protocol.txt; sourceTree = "<group>"; };
+		BE4554A917F57EB000294B3A /* socks4a.protocol.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = socks4a.protocol.txt; sourceTree = "<group>"; };
+		BE4554AB17F57EB000294B3A /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		BE4554AC17F57EB000294B3A /* http-auth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "http-auth.c"; sourceTree = "<group>"; };
+		BE4554AD17F57EB000294B3A /* http-auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "http-auth.h"; sourceTree = "<group>"; };
+		BE4554AE17F57EB000294B3A /* http-connect.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "http-connect.c"; sourceTree = "<group>"; };
+		BE4554AF17F57EB000294B3A /* http-relay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "http-relay.c"; sourceTree = "<group>"; };
+		BE4554B017F57EB000294B3A /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		BE4554B117F57EB000294B3A /* log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		BE4554B217F57EB000294B3A /* log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		BE4554B317F57EB000294B3A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BE4554B417F57EB000294B3A /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		BE4554B517F57EB000294B3A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BE4554B617F57EB000294B3A /* md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		BE4554B717F57EB000294B3A /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		BE4554B817F57EB000294B3A /* parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		BE4554B917F57EB000294B3A /* parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		BE4554BA17F57EB000294B3A /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		BE4554BB17F57EB000294B3A /* README.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = README.html; sourceTree = "<group>"; };
+		BE4554BC17F57EB000294B3A /* reddns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reddns.c; sourceTree = "<group>"; };
+		BE4554BD17F57EB000294B3A /* redsocks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = redsocks.c; sourceTree = "<group>"; };
+		BE4554BE17F57EB000294B3A /* redsocks.conf.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = redsocks.conf.example; sourceTree = "<group>"; };
+		BE4554BF17F57EB000294B3A /* redsocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redsocks.h; sourceTree = "<group>"; };
+		BE4554C017F57EB000294B3A /* redudp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = redudp.c; sourceTree = "<group>"; };
+		BE4554C117F57EB000294B3A /* redudp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redudp.h; sourceTree = "<group>"; };
+		BE4554C217F57EB000294B3A /* socks4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = socks4.c; sourceTree = "<group>"; };
+		BE4554C317F57EB000294B3A /* socks5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = socks5.c; sourceTree = "<group>"; };
+		BE4554C417F57EB000294B3A /* socks5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socks5.h; sourceTree = "<group>"; };
+		BE4554C517F57EB000294B3A /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		BE4554C617F57EB000294B3A /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		BE4554C717F57EB000294B3A /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BE1054A817F57E620017AD81 = {
+			isa = PBXGroup;
+			children = (
+				BE45548317F57EB000294B3A /* autohttp-connect.c */,
+				BE45548417F57EB000294B3A /* autosocks.c */,
+				BE45548517F57EB000294B3A /* base.c */,
+				BE45548617F57EB000294B3A /* base.h */,
+				BE45548717F57EB000294B3A /* base64.c */,
+				BE45548817F57EB000294B3A /* base64.h */,
+				BE45548917F57EB000294B3A /* config.h */,
+				BE45548A17F57EB000294B3A /* debian */,
+				BE45549C17F57EB000294B3A /* direct.c */,
+				BE45549D17F57EB000294B3A /* dnstc.c */,
+				BE45549E17F57EB000294B3A /* dnstc.h */,
+				BE45549F17F57EB000294B3A /* doc */,
+				BE4554AA17F57EB000294B3A /* gen */,
+				BE4554AC17F57EB000294B3A /* http-auth.c */,
+				BE4554AD17F57EB000294B3A /* http-auth.h */,
+				BE4554AE17F57EB000294B3A /* http-connect.c */,
+				BE4554AF17F57EB000294B3A /* http-relay.c */,
+				BE4554B017F57EB000294B3A /* list.h */,
+				BE4554B117F57EB000294B3A /* log.c */,
+				BE4554B217F57EB000294B3A /* log.h */,
+				BE4554B317F57EB000294B3A /* main.c */,
+				BE4554B417F57EB000294B3A /* main.h */,
+				BE4554B517F57EB000294B3A /* Makefile */,
+				BE4554B617F57EB000294B3A /* md5.c */,
+				BE4554B717F57EB000294B3A /* md5.h */,
+				BE4554B817F57EB000294B3A /* parser.c */,
+				BE4554B917F57EB000294B3A /* parser.h */,
+				BE4554BA17F57EB000294B3A /* README */,
+				BE4554BB17F57EB000294B3A /* README.html */,
+				BE4554BC17F57EB000294B3A /* reddns.c */,
+				BE4554BD17F57EB000294B3A /* redsocks.c */,
+				BE4554BE17F57EB000294B3A /* redsocks.conf.example */,
+				BE4554BF17F57EB000294B3A /* redsocks.h */,
+				BE4554C017F57EB000294B3A /* redudp.c */,
+				BE4554C117F57EB000294B3A /* redudp.h */,
+				BE4554C217F57EB000294B3A /* socks4.c */,
+				BE4554C317F57EB000294B3A /* socks5.c */,
+				BE4554C417F57EB000294B3A /* socks5.h */,
+				BE4554C517F57EB000294B3A /* utils.c */,
+				BE4554C617F57EB000294B3A /* utils.h */,
+				BE4554C717F57EB000294B3A /* version.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BE45548A17F57EB000294B3A /* debian */ = {
+			isa = PBXGroup;
+			children = (
+				BE45548B17F57EB000294B3A /* changelog */,
+				BE45548C17F57EB000294B3A /* compat */,
+				BE45548D17F57EB000294B3A /* control */,
+				BE45548E17F57EB000294B3A /* copyright */,
+				BE45548F17F57EB000294B3A /* init.d */,
+				BE45549017F57EB000294B3A /* postinst */,
+				BE45549117F57EB000294B3A /* postrm */,
+				BE45549217F57EB000294B3A /* redsocks.8 */,
+				BE45549317F57EB000294B3A /* redsocks.conf */,
+				BE45549417F57EB000294B3A /* redsocks.default */,
+				BE45549517F57EB000294B3A /* redsocks.docs */,
+				BE45549617F57EB000294B3A /* redsocks.install */,
+				BE45549717F57EB000294B3A /* redsocks.manpages */,
+				BE45549817F57EB000294B3A /* rules */,
+				BE45549917F57EB000294B3A /* source */,
+				BE45549B17F57EB000294B3A /* watch */,
+			);
+			path = debian;
+			sourceTree = "<group>";
+		};
+		BE45549917F57EB000294B3A /* source */ = {
+			isa = PBXGroup;
+			children = (
+				BE45549A17F57EB000294B3A /* format */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		BE45549F17F57EB000294B3A /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				BE4554A017F57EB000294B3A /* iptables-packet-flow-ng.png */,
+				BE4554A117F57EB000294B3A /* iptables-packet-flow.png */,
+				BE4554A217F57EB000294B3A /* rfc1928-socks5.txt */,
+				BE4554A317F57EB000294B3A /* rfc1929-socks5-auth.txt */,
+				BE4554A417F57EB000294B3A /* rfc1961-socks5-gssapi.txt */,
+				BE4554A517F57EB000294B3A /* rfc2617-http-authentication.txt */,
+				BE4554A617F57EB000294B3A /* rfc2817-http-connect.txt */,
+				BE4554A717F57EB000294B3A /* rfc3089-socks-ipv6.txt */,
+				BE4554A817F57EB000294B3A /* socks4.protocol.txt */,
+				BE4554A917F57EB000294B3A /* socks4a.protocol.txt */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		BE4554AA17F57EB000294B3A /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				BE4554AB17F57EB000294B3A /* version.c */,
+			);
+			path = gen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BE1054A917F57E620017AD81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = BE1054AC17F57E620017AD81 /* Build configuration list for PBXProject "redsocks-pac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE1054A817F57E620017AD81;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BE1054AD17F57E620017AD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BE1054AE17F57E620017AD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1054AC17F57E620017AD81 /* Build configuration list for PBXProject "redsocks-pac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1054AD17F57E620017AD81 /* Debug */,
+				BE1054AE17F57E620017AD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1054A917F57E620017AD81 /* Project object */;
+}
